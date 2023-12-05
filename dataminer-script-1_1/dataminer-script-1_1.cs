@@ -17,6 +17,7 @@ namespace dataminer_script_1_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
+			// Here is a command line
 			engine.GenerateInformation("Hello World - by me! Fabian!");
 		}
 	}
